@@ -24,5 +24,6 @@
   "devDependencies": {
     "http-proxy-middleware": "^0.17.4"
   },
-  "apiurl": "http://localhost/arphpdev/ori/"
+  "apiurl": "http://ardoc.coopcoder.com:9007/",
+  "docname": "ardoc"
 }

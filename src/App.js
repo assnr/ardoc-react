@@ -21,7 +21,7 @@ class App extends React.Component {
       super(props)
     }
     componentDidMount() {
-      FetchJson(Config.apiurl + 'api/docjsonMenu', {docmenu: "arphpdev"}).then((json) => {
+      FetchJson(Config.apiurl + 'api/docjsonMenu', {docmenu: Config.docname}).then((json) => {
         this.props.dispatch({type:'addMenuData', source: json})
       }).catch((res) => {
         alert('api docjsonMenu catch error');
